@@ -12,31 +12,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="favicon.png" />
-    <link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
-    <link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
-   
-    <link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
-    <link rel="stylesheet" href="libs/owl-carousel/owl.theme.css" />
-      <link rel="stylesheet" href="libs/owl-carousel/owl.transitions.css" />
+ <link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+ <link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
+ <link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
+ <link rel="stylesheet" href="libs/owl-carousel/owl.theme.css" />
+ <link rel="stylesheet" href="libs/owl-carousel/owl.transitions.css" />
 <link rel="stylesheet" href="libs/Magnific-Popup/magnific-popup.css" />
-
-
-
-
-
-
-
- <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
-
-
-    <link rel="stylesheet" href="libs/countdown/jquery.countdown.css" />
-    <link rel="stylesheet" href="css/fonts.css" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/media.css" />
+ <link rel="stylesheet" href="css/fonts.css" />
+<link rel="stylesheet" href="css/main.css" />
+<link rel="stylesheet" href="css/media.css" />
 </head>
 <body>
 
-<header class="top-header">
+<header class="top-header"  id="home">
 <div class="top-line">
 <div class="container">
     <div class="row">
@@ -47,12 +35,12 @@
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-8">
             <div class="top-menu hidden-xs hidden-sm hidden-md">
                 <ul>
-                    <li><a href="#">Главная</a></li>
-                    <li>    <a href="#">Услуги</a></li>
-                    <li>    <a href="#">Портфолио</a></li>
-                    <li>    <a href="#">Цены</a></li>
-                    <li>    <a href="#">О нас</a></li>
-                    <li>    <a href="#">Контакты</a></li>   
+  <li><a href="#home">Главная</a></li>
+  <li><a href="#services">Услуги</a></li>
+  <li><a href="#portfolio">Портфолио</a></li>
+  <li><a href="#prices">Цены</a></li>
+  <li><a href="#aboutus">О нас</a></li>
+  <li><a href="#contacts">Контакты</a></li>   
                 </ul>
             </div>
 <a href="#" class="toggle-mnu hidden-lg"><span></span></a>
@@ -65,12 +53,12 @@
 <div class="col-xs-12 col-sm-12 col-md-10">
 <div class="top-menu hidden-mnu hidden-lg clearfix">
    <ul>
-                    <li><a href="#">Главная</a></li>
-                    <li>    <a href="#">Услуги</a></li>
-                    <li>    <a href="#">Портфолио</a></li>
-                    <li>    <a href="#">Цены</a></li>
-                    <li>    <a href="#">О нас</a></li>
-                    <li>    <a href="#">Контакты</a></li>   
+  <li><a href="#home">Главная</a></li>
+  <li><a href="#services">Услуги</a></li>
+  <li><a href="#portfolio">Портфолио</a></li>
+  <li><a href="#prices">Цены</a></li>
+  <li><a href="#aboutus">О нас</a></li>
+  <li><a href="#contacts">Контакты</a></li>    
    </ul>
 
  </div>
@@ -120,8 +108,8 @@
 
 </header>
 
-<!--начало 1 блока-->
-
+<!--начало блока услуги-->
+<section id="services">
 <div class="container">
     <div class="fon-white">
         <div class="row">
@@ -216,9 +204,11 @@
     </div>
 </div>
 <!-- конец 2 блока -->
+</section>
+
 
 <!-- Начало блока портфолио -->
-
+<section id="portfolio">
 <div class="container">
  <div class="portfolio-blocks">
   <h2>Примеры наших работ</h2>
@@ -412,9 +402,7 @@
  
    <!--начало первой картинки 2 ряда в портфолио -->
   <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-
     <div class="portfolio">
-
      <a href="#" class="portfolio-item">
       <img class="responsive-img portfolio-image" src="images/Freelance.jpg" alt="nbgf">
       <div class="portfolio-item-content">freelance</div>
@@ -591,32 +579,17 @@
      </a>
 
     </div>
-
    </div>
    <!-- конец 3 картинки 2 ряда в портфолио -->
-
-
-
-
-
-
-
-
-
-
-
 </div>
-
-
-
-
+</div>
  </div>
- </div>
+ </section>
 <!-- конец блока портфолио -->
 
 
 <!--начало блока цены -->
-
+  <section id="prices"> 
 <div class="container">
  <div class="price">
   <h2>Стоимость наших продуктов</h2>
@@ -687,9 +660,10 @@
   </div>
  </div>
 </div>
+</section>
 
 <!--начало блока кoманда -->
-
+<section id="aboutus">
 <div class="container">
  <div class="block-commands">
   <h2>Представляю нашу команду разработчиков</h2>
@@ -714,9 +688,7 @@
      <div class="command-block-name">Николя Поганнини</div>
      <div class="command-block-work">Marketing Manager</div>
     </div>
-
    </div>
-
    <div class="col-md-4">
     <div class="command-block">
      <div class="command-block-img">
@@ -724,15 +696,15 @@
      <div class="command-block-name">Николя Поганнини</div>
      <div class="command-block-work">Marketing Manager</div>
     </div>
-
    </div>
   </div>
  </div>
 </div>
+ </section>
 
 
 
-<footer>
+<footer id="contacts">
  <div class="container">
   <div class="footer-color">
    <div class="row">
@@ -787,12 +759,9 @@
          площадь Героев Обороны, офис 234
          <br>+7 800 111 11 11</address>
        </div>
-
       </div>
      </div>
-
      <div class="footer-block">
-
       <div class="row">
        <h2>Мы в сети</h2>
        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -826,19 +795,21 @@
             <i class="fa fa-youtube" aria-hidden="true"></i>
            </a>
           </li>
+            <li class="top-b" id="top">
+           <a href="#">
+            <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+           </a>
+          </li>
          </ul>
         </div>
        </div>
-
       </div>
      </div>
-
     </div>
    <!--конец футер блок --> 
     </div>
   </div>
  </div>
-
  <div class="container">
   <div class="trade-mark">
    <div class="row">
@@ -858,18 +829,8 @@
     <script src="libs/jquery/jquery-1.11.1.min.js"></script>
  <script src="libs/owl-carousel/owl.carousel.min.js"></script>
 <script src="libs/Magnific-Popup/jquery.magnific-popup.min.js"></script>
-
-
-    <script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
-    <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
-    <script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
-    <script src="libs/scrollto/jquery.scrollTo.min.js"></script>
-   
-    <script src="libs/countdown/jquery.plugin.js"></script>
-    <script src="libs/countdown/jquery.countdown.min.js"></script>
-    <script src="libs/countdown/jquery.countdown-ru.js"></script>
-    <script src="libs/landing-nav/navigation.js"></script>
-    <script src="js/common.js"></script>
+  <script src="libs/PageScroll2id/PageScroll2id.min.js"></script>
+   <script src="js/common.js"></script>
     <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
     <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>

@@ -24,8 +24,8 @@ body textarea:required:valid {
 	
 }
 body {
-	font-family: "RobotoRegular", sans-serif;
-	font-size: 16px;
+font-family: "RobotoRegular", sans-serif;
+font-size: 16px;
 line-height: 1.5;
 position: relative;
 color:#999;
@@ -34,16 +34,14 @@ background-color: #e5e5e5;
 h2 {
 font-size: 2em;
 line-height: 1.5;
-	text-align: center;
-	padding: 50px 0;
-
+text-align: center;
+padding: 50px 0;
 }
 p {
 font-size: 1.2em;
 line-height: 1.2;
-	text-align: center;
-	padding-bottom: 50px;
-
+text-align: center;
+padding-bottom: 50px;
 }
 .top-header  {
 background: #000 url("../images/fon-slider.jpg") no-repeat;
@@ -51,7 +49,6 @@ background: #000 url("../images/fon-slider.jpg") no-repeat;
 background-size: cover;
 min-height: 800px;
 position: relative;
-
 }
  .top-header:before{
 position: absolute;
@@ -61,47 +58,39 @@ left: 0;
 width: 100%;
 height: 100%;
 background-color: rgba(0, 0, 0, 0.4);
-
 }
-
-
 .topline {
-
-	background: transparent;
+background: transparent;
 }
-
 .top-line {
-	height:100px;
-	background-color: rgba(250, 0, 0, 0.70);
-	padding: 25px;
+height:100px;
+background-color: rgba(250, 0, 0, 0.70);
+padding: 25px;
 }
 .logo {
-	text-transform: uppercase;
-	font-family: "RobotoBold", sans-serif;
-	font-size: 1.95em;
-	color: rgb(82, 182, 236);
-	line-height: 1.8;
+text-transform: uppercase;
+font-family: "RobotoBold", sans-serif;
+font-size: 1.95em;
+color: rgb(82, 182, 236);
+line-height: 1.8;
 }
-
 .top-menu {
-	margin-top: 12px;
-	padding: 0;
-	text-align: right;
+margin-top: 12px;
+padding: 0;
+text-align: right;
 }
-
 .top-menu ul {
-	padding: 0; margin: 0;
-	list-style-type: none;
+padding: 0; margin: 0;
+list-style-type: none;
 }
 .top-menu ul li { 
 display: inline-block;
-
 }
 .top-menu ul li a { 
-	color: rgb(255, 255, 255);
-	font-size: 1.1em;
-	padding: 15px 20px;
-	 position: relative;
+color: rgb(255, 255, 255);
+font-size: 1.1em;
+padding: 15px 20px;
+ position: relative;
 background-color: rgba(250, 0, 0, 0.30);
 -webkit-transition: all 0.5s ease;
 -moz-transition: all 0.5s ease;
@@ -117,22 +106,19 @@ bottom: 10px;
 width: 80%;
 left: 10%;
 border: 1px solid rgb(82, 182, 236);
-	}
+}
 
 .top-menu ul li a:hover { 
 background-color: rgba(250, 0, 0, 0.45);
-	color: rgb(82, 182, 236);
-	 position: relative;
+color: rgb(82, 182, 236);
+position: relative;
 }
 .top-menu ul li a:hover:before { 
 border: 1px solid rgb(255, 255, 255);
-
 }
-
 
 /*оформление 2 меню для адаптива*/
 .hidden-mnu {
-
 display: block;
 position: absolute;
 max-width:100%;
@@ -141,7 +127,6 @@ left:0;
 right: 0;
 z-index:1;
 }
-
 .hidden-mnu ul li {
 display:block;
 width:100%;
@@ -152,17 +137,14 @@ padding: 0;
 .hidden-mnu ul li a{
 display: block;
 text-align: center;
-
 padding:20px 0;
 color:#fff;
 }
 
 .hidden-mnu ul li a:hover{
 background-color: rgba(250, 0, 0, 0.45);
-	color: rgb(82, 182, 236);
-
+color: rgb(82, 182, 236);
 }
-
 /*начало оформления кнопки  меню для адаптива*/
 .toggle-mnu
 {float:right;
@@ -210,7 +192,6 @@ transform:rotate(-45deg) translate(6px,-7px);
 .toggle-mnu.on+#menu
 {opacity:1;visibility:visible;
 }
-
 /*оформление заголовка */
 .main-header {
 color: #fff;
@@ -218,9 +199,8 @@ color: #fff;
 
 /*оформление карусели */
 .main-title {
-	text-align: center;
-	margin-top: 180px;
-	
+text-align: center;
+margin-top: 180px;
 }
 .main-title h1 {
 font-family: "RobotoBold", sans-serif;
@@ -229,10 +209,8 @@ font-size: 2.3em;
 text-align: center;
 font-weight: 900;
 line-height: 1.8;
-
 }
 .main-title h2 {
-
 font-family: "RobotoBold", sans-serif;
 text-transform: uppercase;text-align: center;
 font-size: 1.3em;
@@ -240,42 +218,35 @@ margin:30px 140px 70px;
 font-weight: 300;
 line-height: 1.8;
 }
-
 .color-maket {
 color: rgb(142, 68, 173);
 }
-
 /*оформление карусели */
-
 .block-items {
-	cursor: default;
+cursor: default;
 }
-
 /*Изменяем внешний вид элементов управления (точки) */
 .owl-theme .owl-controls {
-    text-align: center;
- margin-top: 10px;
+text-align: center;
+margin-top: 10px;
 }
 .owl-controls .owl-dots {
-  margin: 0 auto;
-      }
-.owl-controls .owl-dots .owl-dot {
-	
-    display: inline-block;
-    } 
-
-.owl-controls .owl-dots .owl-dot span {
-    width: 20px;
-    height: 20px;
-    margin: 5px 7px;
-    background: rgb(82, 182, 236);
-    display: block;
-    -webkit-backface-visibility: visible;
-    transition: opacity .2s ease;
+margin: 0 auto;
 }
-
+.owl-controls .owl-dots .owl-dot {
+display: inline-block;
+} 
+.owl-controls .owl-dots .owl-dot span {
+width: 20px;
+height: 20px;
+margin: 5px 7px;
+background: rgb(82, 182, 236);
+display: block;
+-webkit-backface-visibility: visible;
+transition: opacity .2s ease;
+}
 .owl-controls .owl-dots .owl-dot .active {
-  background: rgb(255, 182, 236);
+background: rgb(255, 182, 236);
 }
 .fon-white {
 background-color:rgb(255, 255, 255);
@@ -289,7 +260,6 @@ padding: 30px 10px;
 .block-servece {
 margin: 5px 0;
 }
-
 .apple-fon {
 background-color: rgb(231, 76, 60);
 }
@@ -308,7 +278,6 @@ background-color: rgb(26, 188, 156);
 .hand-fon {
 background-color: rgb(44, 62, 80);
 }
-
 .block-servece-img {
 margin: 20px auto 5px;
 border-radius: 10em;
@@ -319,7 +288,6 @@ height: 100px;
 -o-transition: all 0.5s ease;
 transition: all 0.5s ease;
 }
-
 .block-servece i {
 display: block;
 color:rgb(255, 255, 255);
@@ -327,20 +295,16 @@ line-height: 100px;
 text-align: center;
 font-size: 2em;
 }
-
 .block-servece:hover .block-servece-img {
 transform: rotateY(180deg);
 }
-
 .block-servece-text {
 padding: 10px 5px;
 }
-
 .block-servece-text h4 {
 font-size: 1.1em;
 text-align: center;
 }
-
 .block-servece-text p {
 font-size: 0.9em;
 text-align: justify;
@@ -360,25 +324,18 @@ padding: 80px 20px;
 	padding: 0;
 } 
 /*начало портфолио  */
-
 .portfolio 
- {
+{
 max-width: 100%;
 overflow: hidden;
 margin:0 auto;
 padding: 10px;
 position: relative;
-
 } 
-
-
 .responsive-img {
 width: 100%;
-	height: auto;
+height: auto;
 }
-
-
-
 .portfolio-item {
 position:relative;
 display: block;
@@ -406,8 +363,6 @@ opacity:0;
 -moz-transition: all 0.5s ease;
 -o-transition: all 0.5s ease;
 transition: all 0.5s ease;
-
-
 -o-transform:scale(1);
 -webkit-transform:scale(1);
 -moz-transform:scale(1);
@@ -421,68 +376,55 @@ opacity:1;
 transform:scale(0.9);
 }
 .portfolio-popup {
-	position:relative;
-	background-color: #fff;
-	display: block;
-	text-align: center;
-	width:90%;
-	margin:5%;
-	padding: 25px 0;
+position:relative;
+background-color: #fff;
+display: block;
+text-align: center;
+width:90%;
+margin:5%;
+padding: 25px 0;
 }
 .portfolio-popup-texting {
-	margin: 0 10px;
+margin: 0 10px;
 }
 .portfolio-popup-texting img {
-	width:90%;
-	height:auto;
-	text-align: center;
+width:90%;
+height:auto;
+text-align: center;
 }
 .portfolio-popup-texting h2 {
-	font-size: 1.000em;
-	line-height: 1.6;
-	padding: 40px 0 20px;
-	text-align: center;
+font-size: 1.000em;
+line-height: 1.6;
+padding: 40px 0 20px;
+text-align: center;
 }
 .portfolio-popup-texting p {
-	font-size: 0.8em;
- padding: 0;
-	text-align: justify;	margin: 0 25px;
+font-size: 0.8em;
+padding: 0;
+text-align: justify;
+margin: 0 25px;
 }
 .portfolio-popup-texting ul {
-	font-size: 0.8em;
-	list-style-type: none;
-		margin-left:40px;padding: 20px 0;
+font-size: 0.8em;
+list-style-type: none;
+margin-left:40px;padding: 20px 0;
 }
 .portfolio-popup-texting ul li {
-	text-align: left;
-	padding: 2px 0;
+text-align: left;
+padding: 2px 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-/*начало цены */
+/*начало блока цены */
 .price {
 background-color: rgb(249, 249, 249);
 margin: 0;
 padding: 80px 0;
 }
-
 .price-block {
 width: 90%;
 margin: 0 auto;
 background-color: #fff;
 padding-bottom: 15px;
 }
-
 .price-block-title {
 font-size: 1.3em;
 font-weight: 900;
@@ -510,19 +452,16 @@ text-transform: uppercase;
 padding: 15px 0;
 border-bottom: 1px dashed #eee;	
 }
-
 .color-price {
 color: #fff;
 background-color: rgb(82, 182, 236);
 }
-
 .price-block-bord {
 border-bottom: 1px dashed transparent;	
 }
 .price-block-button {
 margin: 35px auto;
 }
-
 .price-block-button a {
 display: block;
 margin: 0 auto;
@@ -539,24 +478,20 @@ text-transform: uppercase;
 -o-transition: all .5s ease;
 transition: all .5s ease;
 }
-
 .price-block-button a:hover { 
 background-color: rgb(82, 82, 236);
 border-radius: 0;
- box-shadow: 0 6px 4px -4px rgba(82, 182, 236, .52);
+box-shadow: 0 6px 4px -4px rgba(82, 182, 236, .52);
 }
-
 .block-commands {
 background-color:rgb(255, 255, 255);
 margin: 0;
 padding: 80px 0;
 }
-
 .command-block {
-	margin: 0 auto;
-	width: 90%;
+margin: 0 auto;
+width: 90%;
 }
-
 .command-block-img {
 text-align: center;
 }
@@ -636,52 +571,27 @@ color: #fff;
 -o-transition: all .5s ease;
 transition: all .5s ease;
 } 
-
-.i-facebook a {
-background-color: #4f7dd4;
-}
-.i-facebook a:hover {
-background-color: #6a98ef;
-}
-.i-google a {
-background-color: #d43a23;
-}
-.i-google a:hover {
-background-color: #dc422b;
-}
-
-.i-pint a, .yt a
-{
-background-color:#c3181f;
-}
-
-.i-pint a:hover, .yt a:hover {
-background-color: #cb2027;
-}
-.linkedin a {background-color:#21a6d8;
-
-}
-.linkedin a:hover {
-background-color:#28addf;
-}
-
-.tweeter a 
-{background-color:#5bceff;
-}
-.tweeter a:hover {
-background-color:#73e6ff;
-}
+.i-facebook a {background-color: #4f7dd4;}
+.i-facebook a:hover {background-color: #6a98ef;}
+.i-google a {background-color: #d43a23;}
+.i-google a:hover {background-color: #dc422b;}
+.i-pint a, .yt a {background-color:#c3181f;}
+.i-pint a:hover, .yt a:hover {background-color: #cb2027;}
+.top-b a {background-color:#d9534f;}
+.top-b a:hover {background-color:#d43f3a;}
+.linkedin a {background-color:#21a6d8;}
+.linkedin a:hover {background-color:#28addf;}
+.tweeter a {background-color:#5bceff;}
+.tweeter a:hover {background-color:#73e6ff;}
 /* стили формы обратной связи */
 .forms-call {
 color:#000;
 font-size: 0.9em;
 }
-
 .forms-call label
 {margin:5px 0;
 display:block;
 }
-
 .forms-call input, .forms-call textarea{
 display:block;
 width:90%;
@@ -705,12 +615,10 @@ height:150px;
 resize: none;
 overflow:hidden;
 }
-
 .forms-call input:focus,
 .forms-call textarea:focus{
 border:2px solid #8470FF;
 }
-
 .forms-call .get-buttons{
 margin:10px auto;
 width:90%;
@@ -745,4 +653,33 @@ border-bottom: 5px solid #d9534f;
 .trade-mark {
 padding: 20px 2px;
 background-color: #e5e5e5;
+}
+
+/*стили кнопки наверх*/
+.top {
+position: fixed;
+bottom: 20px;
+right: -120px;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background-color:#d9534f;
+cursor: pointer;
+text-align: center;
+opacity: .3;
+z-index: 3;
+-webkit-transition: all 0.5s ease;
+-moz-transition:all 0.5s ease; 
+transition: all 0.5s ease;
+}
+.top .fa {
+color: #fff;
+font-size: 2em;
+margin-top: 6px;
+}
+.top:hover {
+opacity: 1;
+} 
+.top.active {
+right: 30px;
 }
