@@ -70,16 +70,20 @@ type:'inline',
 	
 	//Аякс отправка форм
 	//Документация: http://api.jquery.com/jquery.ajax/
-	$("form").submit(function() {
+$("form").submit(function() { //Change
+		var th = $(this);
 		$.ajax({
-			type: "GET",
-			url: "mail.php",
-			data: $("form").serialize()
+			type: "POST",
+			url: "mail.php", //Change
+			data: th.serialize()
 		}).done(function() {
-			alert("Спасибо за заявку!");
+			$(".forms-calldecor .success").addClass("active");
 			setTimeout(function() {
-				$.fancybox.close();
-			}, 1000);
+				// Done Functions
+				$(".forms-calldecor .success").removeClass("active");
+				th.trigger("reset");
+				$.magnificPopup.close();
+			}, 100);
 		});
 		return false;
 	});
